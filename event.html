@@ -5,18 +5,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <title>Google Analytics 事件追蹤範例</title>
 <!-- 以下是 GA 追蹤碼的基本安裝 -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=評估編號"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-6KZXYWFBRX"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments)};
 gtag("js", new Date());
 
-gtag("config", "評估編號");
+gtag("config", "G-6KZXYWFBRX");
 </script>
 <script>
 function trackCTA(){
 	// 送出事件紀錄
-	gtag("event", "分享", {
+	gtag("event", "SHARE PAGE", {
+		"visdeo":"test",
 		"platform":"Facebook",
 		"title":"如何使用 GA",
 		"value": 1
